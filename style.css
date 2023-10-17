@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29, 28, 28);
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.322);
+    display: flex;
+    justify-content: flex-end;
+      
+    
+}
+
+.logo{
+   justify-content: flex-start;
+   margin-right: 40%;
+   width: 140px;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    height: 10vh;
+    right: 100px;
+    
+}
+
+li {
+    margin: 20px;
+    font-family: 'Grenze Gotisch', serif;
+    font-size: 1.3rem;
+    
+}
+
+li a{
+    text-decoration: none;
+}
+
+.imgCorpo{
+    width: 100%;
+}
+
+
+.imagem-superior {
+    position: absolute;
+    top: 620px; 
+    left: 0; 
+    z-index: 2;
+    width: 33,5%;
+    filter: blur(5px);
+}
+
+.imagem-superior2 {
+    position: absolute;
+    top: 620px; 
+    left: 480px; 
+    z-index: 2;
+    width: 33,5%;
+    filter: blur(5px);
+}
+
+.imagem-superior3 {
+    position: absolute;
+    top: 625px; 
+    right: 0; 
+    z-index: 2;
+    width: 33%;
+    filter: blur(5px);
+}
+
+
+/* Texto no corpo*/
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+#historia h1{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-top: 30px;
+    font-family: 'Grenze Gotisch', serif;
+    font-size: 3rem;
+    color: white;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+p{
+    display: flex;
+    font-family: 'Grenze Gotisch', serif;
+    color: white;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 40px;
+    padding: 10px;
+   
+}
+.ge-ye-ci{
+    width: 90vh;
+    margin-top: 250px;
+    margin-right: 20px;
+    border-radius: 20px;
+    
+}
+
+section{
+    background-color: rgb(29, 28, 28);
+}
+
+/*o mapa e texto continente*/
+
+#historia2 h1{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    font-family: 'Grenze Gotisch', serif;
+    font-size: 3rem;
+    color: white;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.mapa img{
+    
+    margin-top: 140px;
+    margin-left: 50px;
+    
+}
+
+/* Elenco*/
+
+#elencoh1 h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Grenze Gotisch', serif;
+    font-size: 4rem;
+    color: white;
+    margin-top: 50px;
+}
+
+.elencoimg{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.cavil img{
+    width: 20vw;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: solid white;
+    
+}
+
+.yen img{
+    width: 20vw;
+    margin-top: 80px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: solid white;
+
+}
+
+.ciri img{
+    width: 20vw;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: solid white;
+}
+
+.cavil :hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.yen :hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.ciri :hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
