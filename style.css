@@ -39,9 +39,7 @@ li {
     margin: 2rem;
     font-family: 'Grenze Gotisch', serif;
     font-size: 1.3rem;
-    margin-right: 3rem;
-    
-    
+    margin-right: 3rem;   
 }
 
 li a{
@@ -144,7 +142,6 @@ main{
 .cardyen img{
     width: 20vw;
     margin-top: 80px;
-    margin-left: 50px;
     border-radius: 20px;
     border: solid white;
 }
@@ -192,54 +189,113 @@ main{
 }
 
 
-@media(min-width:201px) and (max-width: 500px){
+@media (max-width: 500px){
     
-    header{
+header{
+    width: 100%;
+    height: 16vh;
+    background-image: linear-gradient(rgb(216, 4, 4), rgb(218, 160, 1));
+    position: fixed;
+ 
+}
+
+
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 35vw;
+}
+
+body .imgCorpo{
+    margin-top: 7rem;
+}
+
+
+ul {
+    display: none; 
+}
+  
+ #historia h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.paragrafoHistoria{
+     font-size: 1rem;
+     margin-top: 0rem;
+
+}
+    
+.ge-ye-ci{
+     display: flex;
+     margin-left: 1.5rem;
+     margin-top: 1rem;
+}
+
+.continente h1{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.mapa{
     display: flex;
+    margin-left: 1.5rem;
+    width: 90%; 
+    margin-top: 1rem;
+}
+
+#historia2{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#elencoh1 h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.card-content h2{
+    font-size: 0.8rem;
+    
+}
+
+.card-content h3{
+    font-size: 0.7rem;
+    color: rgb(165, 142, 42);
+
+}
+
+
+.elencoimg{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+  
+.cardcavil img{
+    margin-top: 20px;
+    width: 80%;
+     
+}
+  
+.cardyen img{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.cardciri img{
+    margin-top: 20px;
+    width: 80%;
+     
+}
+
+.card-content{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    background-color: rgb(97, 95, 96);
-    color: white;
-    }
+    width: 80%;
+}
 
-    .imagem-superior {
-        position: absolute;
-        top: 250px; 
-        left: 40px; 
-        z-index: 2;
-        width: 25%;
-        filter: blur(5px);
-    }
-    
-    .imagem-superior2 {
-        position: absolute;
-        top: 250px; 
-        left: 150px; 
-        z-index: 2;
-        width: 25%;
-        filter: blur(5px);
-    }
-    
-    .imagem-superior3 {
-        position: absolute;
-        top: 250px; 
-       left: 260px; 
-        z-index: 2;
-        width: 25%;
-        filter: blur(5px);
-    }
 
-    #historia h1{
-        font-size: 1.3rem;
-    }
-
-    p{
-        font-size: 1rem;
-        margin-left: 3px;
-    }
-    
-    .ge-ye-ci{
-        width: 40vw;
-        margin-left: 2px;
-    }
-
-    }
+}
